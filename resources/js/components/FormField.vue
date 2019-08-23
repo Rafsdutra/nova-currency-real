@@ -77,19 +77,19 @@
                 return val.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".")
             },
             /*
-             * Set the initial, internal value for the field.
+             * Seta o valor inicial do campo
              */
             setInitialValue() {
                 this.value = this.field.value || 0
             },
             /**
-             * Fill the given FormData object with the field's internal value.
+             * Preenche o FormData com o valor inicial indicado
              */
             fill(formData) {
                 formData.append(this.field.attribute, this.value || 0)
             },
             /**
-             * Update the field's internal value.
+             * Atualiza o valor interno do campo
              */
             handleChange(value) {
                 this.value = value
