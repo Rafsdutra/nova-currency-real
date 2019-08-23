@@ -13,8 +13,7 @@
                        style="border-top-left-radius: 0;border-bottom-left-radius: 0;">{{formatPrice(field.value)}}</money>
             </div>
             <div class = "flex-wrap items-stretch w-full relative">
-<!--                {{value.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".") * 100}}-->
-              <small>{{formatPrice(field.value)}}</small>
+
             </div>
             <p v-if="hasError" class="my-2 text-danger">
                 {{ firstError }}
