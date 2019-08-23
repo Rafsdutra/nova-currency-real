@@ -1,5 +1,5 @@
 {
-    "name": "market/currency-field",
+    "name": "rafsd/currency-field",
     "description": "A Laravel Nova field.",
     "keywords": [
         "laravel",
