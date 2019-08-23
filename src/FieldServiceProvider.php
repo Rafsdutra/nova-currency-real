@@ -1,6 +1,6 @@
 <?php
 
-namespace Market\CurrencyField;
+namespace rafsd\CurrencyField;
 
 use Laravel\Nova\Nova;
 use Laravel\Nova\Events\ServingNova;
