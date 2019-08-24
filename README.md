@@ -9,7 +9,9 @@ Para instalar, execute o seguinte comando:
 ## Utilização
 Em seu resource, utilize:
 ```php
-
- CurrencyField::make('Field do seu Resource')
+use Market\CurrencyField\CurrencyField;
+              .......
+              
+CurrencyField::make('Field do seu Resource')
  
 ```
