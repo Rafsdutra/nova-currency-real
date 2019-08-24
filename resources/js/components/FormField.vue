@@ -63,9 +63,7 @@
             extraAttributes() {
                 const attrs = this.field.extraAttributes
                 return {
-                    // Leave the default attributes even though we can now specify
-                    // whatever attributes we like because the old number field still
-                    // uses the old field attributes
+                  
                     ...this.defaultAttributes,
                     ...attrs,
                 }
@@ -79,25 +77,30 @@
                 return val.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".")
             },
             /*
-             * Set the initial, internal value for the field.
+             * Seta o valor inicial do campo
              */
             setInitialValue() {
                 this.value = this.field.value || 0
             },
             /**
-             * Fill the given FormData object with the field's internal value.
+             * Preenche o FormData com o valor inicial indicado
              */
             fill(formData) {
                 formData.append(this.field.attribute, this.value || 0)
             },
             /**
-             * Update the field's internal value.
+             * Atualiza o valor interno do campo
              */
             handleChange(value) {
                 this.value = value
             }
         },
         mounted() {
+            /*
+             * Multiplica o valor requisitado do banco por 100
+             * para evitar que venha quebrado (por exemplo: o valor
+             * 5.000,00 viria dividido por 100, ou seja, 50
+             */
             this.value = parseFloat(this.value*100).toFixed(this.field.subUnits);
 
         },

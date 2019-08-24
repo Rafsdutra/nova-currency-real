@@ -15,7 +15,7 @@ class CurrencyField extends Number
 
     public $format;
     /**
-     * The field's component.
+     * Componente do field
      *
      * @var string
      */
@@ -32,7 +32,7 @@ class CurrencyField extends Number
     }
 
     /**
-     * The monetary format the field will used be displayed in.
+     * O formato monetário que será exibido
      *
      * @param string $format
      * @return $this
