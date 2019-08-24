@@ -10916,7 +10916,7 @@ var render = function() {
                 _vm.money,
                 false
               ),
-              [_vm._v(_vm._s(_vm.formatPrice(_vm.field.value)))]
+              [_vm._v(_vm._s(_vm.field.value))]
             )
           ],
           1

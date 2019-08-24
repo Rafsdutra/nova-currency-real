@@ -17,7 +17,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Market\\CurrencyField\\FieldServiceProvider"
+                "rafsd\\CurrencyField\\FieldServiceProvider"
             ]
         }
     },

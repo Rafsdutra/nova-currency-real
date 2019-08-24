@@ -10,7 +10,7 @@
                 <money v-model="value"
                        v-bind="money"
                        class="flex-1 relative focus:border-blue focus:shadow form-control form-input form-input-bordered"
-                       style="border-top-left-radius: 0;border-bottom-left-radius: 0;">{{formatPrice(field.value)}}</money>
+                       style="border-top-left-radius: 0;border-bottom-left-radius: 0;">{{(field.value)}}</money>
             </div>
             <div class = "flex-wrap items-stretch w-full relative">
 
