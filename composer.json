@@ -11,7 +11,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Market\\CurrencyField\\": "src/"
+            "rafsd\\CurrencyField\\": "src/"
         }
     },
     "extra": {
