@@ -2,7 +2,7 @@
 
 namespace rafsd\CurrencyField;
 
-use Laravel\Nova\Fields\Field;
+
 use Laravel\Nova\Fields\Number;
 
 
