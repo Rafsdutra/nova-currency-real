@@ -12,6 +12,6 @@ Em seu resource, utilize:
 use rafsd\CurrencyField\CurrencyField;
               .......
               
-CurrencyField::make('Field do seu Resource')
+CurrencyField::make('Field Monetário', 'field_monetário)
  
 ```
