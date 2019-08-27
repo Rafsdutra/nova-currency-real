@@ -1,5 +1,5 @@
 {
-    "name": "rafsd/currency-field",
+    "name": "Rafsd/currency-field",
     "description": "A Laravel Nova field.",
     "keywords": [
         "laravel",
@@ -11,13 +11,13 @@
     },
     "autoload": {
         "psr-4": {
-            "rafsd\\CurrencyField\\": "src/"
+            "Rafsd\\CurrencyField\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "rafsd\\CurrencyField\\FieldServiceProvider"
+                "Rafsd\\CurrencyField\\FieldServiceProvider"
             ]
         }
     },

@@ -1,6 +1,6 @@
 <?php
 
-namespace rafsd\CurrencyField;
+namespace Rafsd\CurrencyField;
 
 
 use Laravel\Nova\Fields\Number;
